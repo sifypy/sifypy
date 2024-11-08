@@ -1,7 +1,0 @@
-# Python sources
-*.py    text diff=python
-*.pyi   text diff=python
-
-# Documents
-*.md    text diff=markdown
-*.txt   text
