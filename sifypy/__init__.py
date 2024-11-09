@@ -5,4 +5,3 @@ for everything from data manipulation to automation.
 """
 
 from ._typing.typing import *
-from .core.logic import *
