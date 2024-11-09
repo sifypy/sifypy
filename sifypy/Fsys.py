@@ -22,3 +22,10 @@ def getdir(base_dir = ".", filter_extension=None, filter_name=None):
             files.append(file_path.name)
     return files
 
+def exists(base_dir = ".", filename = ""):
+    file_path = os.path.join(base_dir, filename)
+
+    if os.path.exists(file_path):
+        return True
+    else:
+        return False
