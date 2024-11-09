@@ -8,3 +8,6 @@ def getdir(base_dir: String = ".", filter_extension=None, filter_name=None) -> l
     """List files in a directory with optional filters for extensions or names."""
     ...
 
+def exists(base_dir: String = ".", filename: String = "") -> bool:
+    """Check if a file or directory exists."""
+    ...
